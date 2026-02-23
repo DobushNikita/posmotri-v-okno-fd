@@ -80,7 +80,7 @@ ol {
   flex-direction: column;
   width: 339px;
   height: 534px;
-  gap: 26px;
+  gap: 20px;
 }
 
 .title {
@@ -98,10 +98,9 @@ ol {
 .content__list-container {
   display: flex;
   flex-direction: column;
-  width: 390px;
+  width: 400px;
   max-height: 298px;
   overflow-y: auto;
-  scrollbar-width: none;
 }
 
 .content__list {
@@ -122,6 +121,10 @@ ol {
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
+  max-width: 196px;
+  line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .content__video-card-description {
